@@ -1,0 +1,4 @@
+heroku create --stack cedar
+heroku addons:add shared-database:5mb
+git push heroku master
+heroku open
